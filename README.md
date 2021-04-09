@@ -70,7 +70,7 @@ Want to add your own community builds to this list? It's easy: check out
 ### TensorFlow Builds
 
 Build Type | Status | Artifacts | Owner Contact
-- | - | - | -
+--- | --- | --- | ---
 **Linux AMD ROCm GPU** Nightly | [![Build Status](http://ml-ci.amd.com:21096/job/tensorflow-rocm-nightly/badge/icon)](http://ml-ci.amd.com:21096/job/tensorflow-rocm-nightly) | [Nightly](http://ml-ci.amd.com:21096/job/tensorflow-rocm-nightly/lastSuccessfulBuild/) | @deven-amd, AMD
 **Linux AMD ROCm GPU** Stable Release | [![Build Status](http://ml-ci.amd.com:21096/job/tensorflow-rocm-release/badge/icon)](http://ml-ci.amd.com:21096/job/tensorflow-rocm-release/) | Release [1.15](http://ml-ci.amd.com:21096/job/tensorflow-rocm-release/lastSuccessfulBuild/) / [2.x](http://ml-ci.amd.com:21096/job/tensorflow-rocm-v2-release/lastSuccessfulBuild/) | @deven-amd, AMD
 **Linux s390x** Nightly | [![Build Status](http://ibmz-ci.osuosl.org/job/TensorFlow_IBMZ_CI/badge/icon)](http://ibmz-ci.osuosl.org/job/TensorFlow_IBMZ_CI/) | [Nightly](http://ibmz-ci.osuosl.org/job/TensorFlow_IBMZ_CI/) | @wdirons, IBM
@@ -90,5 +90,5 @@ Build Type | Status | Artifacts | Owner Contact
 ### TensorFlow Containers
 
 Container Type | Status | Artifacts | Owner Contact
-- | - | - | -
+--- | --- | --- | ---
 **TensorFlow aarch64 Neoverse-N1 CPU** Stable (Linaro)<br> Debian | Static | Release [2.3](https://hub.docker.com/r/linaro/tensorflow-arm-neoverse-n1) | @hrw, Linaro
