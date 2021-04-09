@@ -93,13 +93,17 @@ Owner | Container Type | Status | Artifacts
 ---: | --- | :---: | :---
 Linaro | **TensorFlow aarch64 Neoverse-N1 CPU** Stable <br> Debian | Static | Release [2.3](https://hub.docker.com/r/linaro/tensorflow-arm-neoverse-n1)
 
-### Community Build Owners
+### Community Build Infra Owners
 
-Owner | Group Contacts
----: | ---
-AMD | @deven-amd
-IBM | @wdirons, @jayfurmanek
-Intel | @gaurides, @claynerobison
-Linaro | @hrw, @paulisaacs-linaro
-OpenLab | @zhaoopenstack
-RedHat | @sub-mod
+If a link needs to be updated, contact the Table Owner for that group. If you
+have trouble with one of the artifacts (TF won't install, etc.), follow the
+"Support" instructions.
+
+Owner | Table Owner | Support
+---: | --- | ---
+AMD | @deven-amd | N/A
+IBM | @wdirons, @jayfurmanek | N/A
+Intel | @gaurides, @claynerobison | N/A
+Linaro | @hrw, @paulisaacs-linaro | N/A
+OpenLab | @zhaoopenstack | N/A
+RedHat | @sub-mod | N/A
