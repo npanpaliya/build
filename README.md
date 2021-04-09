@@ -67,14 +67,6 @@ note that as *community* builds they are not supported by the TensorFlow team.
 Want to add your own community builds to this list? It's easy: check out
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Owner | Group Contacts
----: | ---
-AMD | @deven-amd
-IBM | @wdirons, @jayfurmanek
-Intel | @gaurides, @claynerobison
-Linaro | @hrw, @paulisaacs-linaro
-OpenLab | @zhaoopenstack
-
 ### TensorFlow Builds
 
 Owner | Build Type | Status | Artifacts
@@ -101,3 +93,13 @@ Owner | Container Type | Status | Artifacts
 ---: | --- | :---: | :---
 Linaro | **TensorFlow aarch64 Neoverse-N1 CPU** Stable <br> Debian | Static | Release [2.3](https://hub.docker.com/r/linaro/tensorflow-arm-neoverse-n1)
 
+### Community Build Owners
+
+Owner | Group Contacts
+---: | ---
+AMD | @deven-amd
+IBM | @wdirons, @jayfurmanek
+Intel | @gaurides, @claynerobison
+Linaro | @hrw, @paulisaacs-linaro
+OpenLab | @zhaoopenstack
+RedHat | @sub-mod
