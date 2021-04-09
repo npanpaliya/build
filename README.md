@@ -105,5 +105,5 @@ AMD | @deven-amd | N/A
 IBM | @wdirons, @jayfurmanek | N/A
 Intel | @gaurides, @claynerobison | N/A
 Linaro | @hrw, @paulisaacs-linaro | N/A
-OpenLab | @zhaoopenstack | N/A
+OpenLab | @bzhaoopenstack | N/A
 RedHat | @sub-mod | N/A
