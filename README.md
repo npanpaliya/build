@@ -67,7 +67,7 @@ note that as *community* builds they are not supported by the TensorFlow team.
 Want to add your own community builds to this list? It's easy: check out
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Group | Contacts
+Owner | Group Contacts
 ---: | ---
 AMD | @deven-amd
 IBM | @wdirons, @jayfurmanek
