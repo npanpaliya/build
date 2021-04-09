@@ -11,6 +11,8 @@ To add your own project to our showcase, you can:
   the template, and add it to the showcase. Make sure to update
   [CODEOWNERS](CODEOWNERS) as well.
 
+Please try to keep lists and tables in alphabetical sort order.
+
 This repo is a good place for small additions, but if the project is a big one,
 it may be better to maintain it in your own repository for better encapsulation
 of responsibility (and so you can make your own rules for further
