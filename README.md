@@ -68,7 +68,7 @@ Want to add your own community builds to this list? It's easy: check out
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Group | Contacts
---- | ---
+---: | ---
 AMD | @deven-amd
 IBM | @wdirons, @jayfurmanek
 Linaro | @hrw, @paulisaacs-linaro
