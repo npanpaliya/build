@@ -1,11 +1,16 @@
-#docker build -f Dockerfile.manylinux_2014_centos8 -t ibmcom/tensorflow-ppc64le:devel-manylinux2014_centos8 .
-FROM quay.io/generic/centos8
+#docker build -f Dockerfile.manylinux_2014_centos8 -t ibmcom/tensorflow-ppc64le:devel-manylinux2014-centos8 .
+FROM quay.io/centos/centos:centos8 
 
 ARG BAZEL_VERSION=3.7.2
-ENV PATH=/opt/python/cp36-cp36m/bin:$PATH
+
+RUN yum install -y gcc-toolset-9-gcc gcc-toolset-9-gcc-c++ gcc-toolset-9 gcc-toolset-9-gcc-gfortran gcc-toolset-9-runtime && \
+    yum install -y which git python3 python3-devel python3-numpy
+
+ENV PATH=/opt/rh/gcc-toolset-9/root/usr/bin/:$PATH
+RUN ln -s /usr/bin/python3 /usr/bin/python && \
+    ln -s /usr/bin/pip3 /usr/bin/pip
 
 RUN yum install -y java-11-openjdk-devel wget zip && \
-#    yum install -y which gcc-toolset-9 gcc-toolset-9-gcc gcc-toolset-9-gcc-c++ && \
     yum clean all && \
     rm -rf /var/cache/yum
 
