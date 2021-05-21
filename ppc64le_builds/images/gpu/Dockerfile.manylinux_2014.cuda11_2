@@ -1,4 +1,4 @@
-#docker build -f Dockerfile.manylinux_2014.cuda11_2 -t ibmcom/tensorflow-ppc64le:gpu-devel-manylinux2014 .
+#docker build -f Dockerfile.manylinux_2014.cuda11_2 -t ibmcom/tensorflow-ppc64le:gpu-devel-manylinux2014-centos8 .
 FROM ibmcom/tensorflow-ppc64le:devel-manylinux2014-centos8
 
 #Copied from https://gitlab.com/nvidia/container-images/cuda/-/blob/master/dist/11.2.2/centos8-ppc64le/base/Dockerfile
